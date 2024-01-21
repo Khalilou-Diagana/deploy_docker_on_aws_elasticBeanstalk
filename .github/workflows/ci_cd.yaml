@@ -6,7 +6,6 @@ on:
         required: true
         type: choice
         options:
-          - destroy
           - deploy
 jobs:
   BuildDockerImage:
