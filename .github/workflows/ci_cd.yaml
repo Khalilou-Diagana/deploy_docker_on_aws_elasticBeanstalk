@@ -42,9 +42,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate deployment package
-        run: zip -r deploy.zip . -x '*.git*'
-
       - name: deployment to elastic beans talk
         uses: einaregilsson/beanstalk-deploy@v20
         with: 
