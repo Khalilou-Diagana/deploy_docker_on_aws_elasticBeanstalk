@@ -52,7 +52,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: react_app
           environment_name: react_env
-          version_label: react_ebs_app
+          version_label: react_ebs
           region: us-east-1
           deployment_package: deploy.zip
 
