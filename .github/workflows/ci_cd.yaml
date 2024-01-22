@@ -52,9 +52,9 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: react_app
           environment_name: reactenv
-          version_label: react_ebs
+          use_existing_version_if_available: react_ebs
           region: us-east-1
-          deployment_package: deploy.zip
+          deployment_package: Dockerrun.aws.json
 
 
 
