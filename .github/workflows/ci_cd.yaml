@@ -55,6 +55,7 @@ jobs:
           version_label: react_ebs
           use_existing_version_if_available: true
           region: us-east-1
+          existing_bucket_name: elasticbeanstalkbucketkbd
           deployment_package: Dockerrun.aws.json
 
 

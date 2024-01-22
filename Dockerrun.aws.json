@@ -1,21 +1,14 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-      "Name": "dahaba/react-app",
+      "Name": "dahaba/react_app",
       "Update": "true"
     },
     "Ports": [
       {
-        "ContainerPort": "1234"
+        "ContainerPort": "80"
       }
     ],
-    "Volumes": [
-      {
-        "HostDirectory": "/var/app/mydb",
-        "ContainerDirectory": "/etc/mysql"
-      }
-    ],
-    "Logging": "/var/log/nginx",
-    "Entrypoint": "/app/bin/myapp",
-    "Command": "--argument"
+    
+    "Logging": "/var/log/nginx"
   }
